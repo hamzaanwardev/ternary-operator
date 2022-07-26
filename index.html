@@ -16,9 +16,9 @@
          age >= 18 ? console.log("you can go for driving lisence"): console.log("you are not eligible for driving lisence");
 
         //  we can also write as
-        const driving = age >= 18 ? "Go for driving lisence":"Not eligible for driving lisence";
-        console.log(driving);
-        document.getElementsByClassName("demo")[0].innerText = driving;
+        // const driving = age >= 18 ? "Go for driving lisence":"Not eligible for driving lisence";
+        // console.log(driving);
+        document.getElementsByClassName("demo")[0].innerText = `you should ${age >= 18 ? "Go for driving lisence":"Not eligible for driving lisence"}`;
         // ternary operators woks only insted of if else condition
     </script>
 </body>
